@@ -76,6 +76,17 @@ git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack.git && (cd ComfyUI-Imp
 
 
 ############################################
+# 📦 모델 다운로드 (Upscale 모델 등)
+############################################
+echo '📦 모델 다운로드 시작'
+mkdir -p /workspace/ComfyUI/models/upscale_models
+if [ ! -f "/workspace/ComfyUI/models/upscale_models/4x-UltraSharpV2.safetensors" ]; then
+    echo "⬇️ 4x-UltraSharpV2.safetensors 다운로드 중..."
+    wget -q --show-progress -O /workspace/ComfyUI/models/upscale_models/4x-UltraSharpV2.safetensors "https://huggingface.co/Kim2091/UltraSharpV2/resolve/main/4x-UltraSharpV2.safetensors" || echo "⚠️ 4x-UltraSharpV2 다운로드 실패"
+else
+    echo "⏩ 4x-UltraSharpV2.safetensors 이미 존재함"
+fi
+############################################
 # ⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇
 # 👉 기존 init 구조 (그대로 유지)
 ############################################
