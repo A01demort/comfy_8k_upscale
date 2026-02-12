@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/a01demort/comfyui_8k_upscale_a1:v1.0.01
+          tags: ghcr.io/a01demort/comfyui_8k_upscale_a1:v1.0.02
