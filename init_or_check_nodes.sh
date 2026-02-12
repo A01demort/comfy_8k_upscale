@@ -112,22 +112,16 @@ add_to_download_list() {
 # 모델 리스트 등록
 add_to_download_list 1 "1x-ReFocus-V3.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/1x-ReFocus-V3.pth"
 add_to_download_list 1 "1x-ITF-SkinDiffDetail-Lite-v1.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/1x-ITF-SkinDiffDetail-Lite-v1.pth"
-add_to_download_list 1 "1xFrankenfixer_SRFormerLight_g.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/1xFrankenfixer_SRFormerLight_g.pth"
 add_to_download_list 1 "1xSkinContrast-High-SuperUltraCompact.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/1xSkinContrast-High-SuperUltraCompact.pth"
 add_to_download_list 2 "2x_CX_100k.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/2x_CX_100k.pth"
-add_to_download_list 2 "SRFormer_SRx2_DF2K.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/SRFormer_SRx2_DF2K.pth"
-add_to_download_list 4 "FrankendataPretrainer_SRFormer400K_g.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/FrankendataPretrainer_SRFormer400K_g.pth"
 add_to_download_list 4 "4x-UltraSharp.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/4x-UltraSharp.pth"
 add_to_download_list 4 "4xFFHQDAT.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/4xFFHQDAT.pth"
 add_to_download_list 4 "4xFaceUpDAT.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/4xFaceUpDAT.pth"
 add_to_download_list 4 "4xFaceUpSharpDAT.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/4xFaceUpSharpDAT.pth"
-add_to_download_list 4 "4xFrankendata_FullDegradation_g_460000.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/4xFrankendata_FullDegradation_g_460000.pth"
 add_to_download_list 4 "4xLSDIRplusN.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/4xLSDIRplusN.pth"
 add_to_download_list 4 "4xNomos8kHAT-L_otf.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/4xNomos8kHAT-L_otf.pth"
 add_to_download_list 4 "4x_NMKD-Siax_200k.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/4x_NMKD-Siax_200k.pth"
 add_to_download_list 4 "4x_NMKD-Superscale-SP_178000_G.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/4x_NMKD-Superscale-SP_178000_G.pth"
-add_to_download_list 4 "SRFormer_SRx4_DF2K.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/SRFormer_SRx4_DF2K.pth"
-add_to_download_list 4 "SRFormer_realworld_W22C180.pth" "https://huggingface.co/notkenski/upscalers/resolve/main/SRFormer_realworld_W22C180.pth"
 
 # aria2c 실행 (동시 다운로드 8개)
 if [ -s "$ARIA2_INPUT" ]; then
